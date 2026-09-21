@@ -1,0 +1,16 @@
+# Dependencies. NOTE: this repo's local node_modules contains junctions into the
+# DSH install for test-time resolution only -- never commit them.
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
